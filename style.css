@@ -14,18 +14,20 @@ body {
 }
 
 #app {
-  width: 70vh;
+  width: 70vw;
 }
 
 h4 {
   color: white;
   font-size: 1.8rem;
+  word-wrap: break-word;
 }
 
 #mostrar {
   background-color: rgba(0, 0, 0, 0);
-  width: 70vh;
+  max-width: 70vw;
   height: 20vh;
+  overflow: scroll;
 }
 
 #botonfooter {

@@ -32,6 +32,9 @@ function copiarAlPortapapeles(){
             close: true,
             gravity: "top",
             position: "right",
+            style: {
+                background: "linear-gradient(to right, #FBCF35, #ED462F)"
+            },
             onclick: function(){}
         }).showToast();
 
@@ -56,7 +59,7 @@ formulario.addEventListener('submit', function(event){
         mostrarInformacion();
 })
 
-// Desde aqui comienza la logila del modal en el footer del html
+// Desde aqui comienza la lógica del modal en el footer del html
 
 let estaAbierto = open
 
