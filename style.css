@@ -1,0 +1,55 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.headercentro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#app {
+  width: 70vh;
+}
+
+h4 {
+  color: white;
+  font-size: 1.8rem;
+}
+
+#mostrar {
+  background-color: rgba(0, 0, 0, 0);
+  width: 70vh;
+  height: 20vh;
+}
+
+#botonfooter {
+  width: auto;
+  height: auto;
+}
+
+#botonfooter:hover {
+  cursor: pointer;
+}
+
+li {
+  list-style: none !important;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+li::before {
+  content: "🌟  ";
+}
+
+p a {
+  cursor: pointer;
+}

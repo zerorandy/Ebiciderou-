@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://img.icons8.com/cotton/64/translation--v1.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>ebiciderou</title>
+  </head>
+  <body>
+
+    <header class="headercentro">
+      <h1>Ebiciderou</h1>
+      <img width="64" height="64" src="https://img.icons8.com/cotton/64/translation--v1.png" alt="translation--v1"/>
+    </header>
+
+    <main id="app" class="container">
+
+      <form id="formulario">
+        <label for="frase">Escribe algo gracioso:</label>
+        <input type="text" id="frase_a_traducir" placeholder="Haniel se come las uñas 🤣">
+        <input type="submit" value="Traducir">
+      </form>
+
+      <div id="mostrar"></div>
+
+    </main>
+
+    <footer>
+
+      <p id="botonfooter">ℹ️  Información sobre el traductor</p>
+      
+      <dialog>
+        <article>
+          <header>
+            <button aria-label="Cerrar" rel="prev"></button>
+            <p>
+              <strong>ℹ️  Información sobre el traductor</strong>
+            </p>
+          </header>
+          <p>
+            Intercambiando las vocales, hemos podido mantenernos 
+            despiertos y con la menta agil en los viajes en carro. <strong>Dedicado a mis 3 hijos</strong>
+          </p>
+          <ul>
+            <li><a href="#" data-tooltip="Haniel" data-placement="right">Henoil</a></li>
+            <li><a href="#" data-tooltip="Maday" data-placement="right">Medey</a></li>
+            <li><a href="#" data-tooltip="Kristen" data-placement="right">Krostin</a></li>
+          </ul>
+          <footer>
+            <p>Creado por <a href="https://www.instagram.com/zerorandy">zerorandy</a></p>
+          </footer>
+        </article>
+      </dialog>
+    </footer>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="module" src="script.js"></script>
+
+
+  </body>
+</html>
